@@ -45,7 +45,7 @@ func main() {
 			fmt.Println("Terima kasih telah menggunakan aplikasi.")
 			return
 		default:
-			fmt.Println("Pilihan tidak valid.")
+			fmt.Println("Pilihan tidak valid. AAA")
 		}
 	}
 }
