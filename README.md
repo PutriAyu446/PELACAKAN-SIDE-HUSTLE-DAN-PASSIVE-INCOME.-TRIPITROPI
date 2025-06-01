@@ -1,14 +1,14 @@
 Aplikasi Pelacak Side Hustle dan Passive Income
 Aplikasi ini dirancang untuk membantu Anda mencatat, mengelola, dan menganalisis pendapatan dari Side Hustle dan Passive Income. Dengan fitur registrasi dan login, setiap pengguna dapat melacak progres finansialnya secara individual.
 
-  Fitur Utama
-1. Manajemen Data Pendapatan: Tambah, Edit, dan Hapus
+# Fitur Utama
+## 1. Manajemen Data Pendapatan: Tambah, Edit, dan Hapus
 Pengguna dapat mengategorikan pendapatan mereka sebagai Side Hustle atau Passive Income. Sistem memfasilitasi pemilihan sumber pendapatan yang lebih spesifik:
 Side Hustle mencakup Freelance, Konten Kreator, dan Jualan Online.
 Passive Income meliputi Uang Sewa Lahan dan Royalti. Setiap pemasukan dilengkapi dengan detail penting: jumlah pendapatan (nominal), tanggal (tanggal, bulan, tahun), dan deskripsi singkat untuk memudahkan identifikasi.
 Fungsi isiData bertanggung jawab untuk menerima input detail dan melakukan validasi untuk memastikan data yang dimasukkan valid, seperti nominal tidak di bawah Rp1.000, tahun antara 1000 dan 2999, serta bulan (1-12) dan tanggal yang sesuai dengan kalender.
 
-Konfirmasi dan Modifikasi Data (KonfirmData):
+## 2. Konfirmasi dan Modifikasi Data (KonfirmData):
 Setelah proses input detail pendapatan, pengguna disajikan dengan opsi konfirmasi untuk meninjau keakuratan data. Apabila ditemukan ketidaksesuaian atau kesalahan, pengguna diberikan fasilitas untuk langsung mengedit atau menghapus entri tersebut sebelum data disimpan secara permanen. Mekanisme ini dirancang untuk meminimalisir potensi kesalahan data pada tahap awal.
 
 Pengeditan Data Pendapatan (editPendapatan):
