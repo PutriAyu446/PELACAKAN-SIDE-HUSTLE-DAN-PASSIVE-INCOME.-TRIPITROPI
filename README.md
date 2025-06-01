@@ -1,4 +1,4 @@
-### Aplikasi Pelacak Side Hustle dan Passive Income
+# Aplikasi Pelacak Side Hustle dan Passive Income
 Aplikasi ini dirancang untuk membantu Anda mencatat, mengelola, dan menganalisis pendapatan dari Side Hustle dan Passive Income. Dengan fitur registrasi dan login, setiap pengguna dapat melacak progres finansialnya secara individual.
 
 # Fitur Utama
