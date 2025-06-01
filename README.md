@@ -10,23 +10,23 @@ a. Pengguna mengategorikan pendapatan mereka sebagai Side Hustle atau Passive In
   detail penting: jumlah pendapatan (nominal), tanggal (tanggal, bulan, tahun), dan deskripsi 
   singkat untuk memudahkan identifikasi.
 
-b. Terdapat fungsi isiData bertanggung jawab untuk menerima input detail dan melakukan 
-validasi untuk memastikan data yang dimasukkan valid, seperti nominal tidak dibawah 0 
-rupiah, tahun antara 1000 dan 2999, serta bulan (1-12) dan tanggal yang sesuai dengan 
-kalender. 
+ b. Terdapat fungsi isiData bertanggung jawab untuk menerima input detail dan melakukan 
+ validasi untuk memastikan data yang dimasukkan valid, seperti nominal tidak dibawah 0 
+ rupiah, tahun antara 1000 dan 2999, serta bulan (1-12) dan tanggal yang sesuai dengan 
+ kalender. 
 
-c. Konfirmasi dan Modifikasi Data (KonfirmData) 
-Setelah proses input detail pendapatan, pengguna disajikan dengan opsi konfirmasi untuk 
-meninjau keakuratan data yang telah dimasukkan. Apabila ditemukan ketidaksesuaian atau 
-kesalahan, pengguna diberikan fasilitas untuk langsung mengedit atau menghapus entri 
-tersebut sebelum data disimpan secara permanen. Mekanisme ini dirancang untuk 
-meminimalisir potensi kesalahan data pada tahap awal. 
+ c. Konfirmasi dan Modifikasi Data (KonfirmData) 
+ Setelah proses input detail pendapatan, pengguna disajikan dengan opsi konfirmasi untuk 
+ meninjau keakuratan data yang telah dimasukkan. Apabila ditemukan ketidaksesuaian atau 
+ kesalahan, pengguna diberikan fasilitas untuk langsung mengedit atau menghapus entri 
+ tersebut sebelum data disimpan secara permanen. Mekanisme ini dirancang untuk 
+ meminimalisir potensi kesalahan data pada tahap awal. 
 
-d. Pengeditan Data Pendapatan (editPendapatan) 
-Fitur ini memungkinkan pengguna untuk memodifikasi catatan pendapatan yang sudah 
-ada. Pengguna dapat memperbarui nilai nominal, bulan, tanggal, tahun, dan deskripsi dari 
-suatu entri. Fungsi editPendapatan menerapkan standar validasi input yang sama ketatnya 
-dengan proses penambahan data, guna menjaga integritas data. 
+ d. Pengeditan Data Pendapatan (editPendapatan) 
+ Fitur ini memungkinkan pengguna untuk memodifikasi catatan pendapatan yang sudah 
+ ada. Pengguna dapat memperbarui nilai nominal, bulan, tanggal, tahun, dan deskripsi dari 
+ suatu entri. Fungsi editPendapatan menerapkan standar validasi input yang sama ketatnya 
+ dengan proses penambahan data, guna menjaga integritas data. 
 
 e. Penghapusan Data Pendapatan (hapusPendapatan) 
 Untuk data pendapatan yang dianggap tidak relevan atau mengandung kesalahan, fitur 
@@ -52,8 +52,7 @@ pengguna memahami di mana letak potensi pendapatan terbesar mereka.
 
 3. Analisis Terkini (TampilanAnalisis) 
 Sistem dapat menampilkan pendapatan terbesar dan terkecil berdasarkan jumlahnya, diurutkan 
-secara 
-ascending (dari kecil ke besar) menggunakan algoritma Insertion Sort 
+secara ascending (dari kecil ke besar) menggunakan algoritma Insertion Sort 
 (insertionSortPendapatan). Setelah pengurutan, pendapatan terkecil akan berada di awal array, dan 
 pendapatan terbesar akan berada di akhir. Informasi yang ditampilkan mencakup kategori, jumlah, 
 tanggal, dan deskripsi dari pendapatan terbesar dan terkecil. 
